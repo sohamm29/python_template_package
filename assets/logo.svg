@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120" role="img" aria-label="Placeholder logo">
+  <rect x="4" y="4" width="312" height="112" rx="12" fill="#f0f2f5" stroke="#c3cad4" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="160" y="56" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#7a8699">YOUR LOGO</text>
+  <text x="160" y="82" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#9aa4b2">replace assets/logo.svg</text>
+</svg>

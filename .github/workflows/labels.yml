@@ -1,0 +1,23 @@
+name: Sync Labels
+
+# Applies .github/labels.yml to the repository's label set.
+# Runs whenever the label file changes on main, or on demand.
+on:
+  push:
+    branches: [main]
+    paths: [.github/labels.yml]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: crazy-max/ghaction-github-labeler@v5
+        with:
+          yaml-file: .github/labels.yml
+          # Set to true to delete labels not defined in labels.yml.
+          skip-delete: true

@@ -1,0 +1,2 @@
+# Annoying CRLF conversion
+*.sh text eol=lf

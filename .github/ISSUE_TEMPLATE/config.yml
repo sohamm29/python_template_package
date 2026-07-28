@@ -1,0 +1,6 @@
+# Set to false to force users through a template instead of a blank issue.
+blank_issues_enabled: true
+contact_links:
+  - name: Questions & Discussion
+    url: https://github.com/IT04DataCloud/glintt-next-template/discussions
+    about: Ask questions or discuss ideas here instead of opening an issue.

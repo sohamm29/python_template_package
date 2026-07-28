@@ -1,0 +1,38 @@
+[project]
+name = "glintt-next-template"
+version = "0.2.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+# Runtime dependencies for your application go here.
+dependencies = []
+
+[dependency-groups]
+# Development and tooling dependencies. Not installed in production.
+dev = [
+    "pre-commit>=4.2.0",
+    "ruff>=0.12.3",
+    "interrogate>=1.7.0",
+    "pyright>=1.1.391",
+    "coverage>=7.9.2",
+    "pytest>=8.4.1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]  # pycodestyle, pyflakes, isort, pyupgrade, bugbear
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+pythonpath = ["."]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.interrogate]
+fail-under = 80
+verbose = 1
