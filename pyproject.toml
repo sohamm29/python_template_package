@@ -10,7 +10,7 @@ dependencies = []
 [dependency-groups]
 # Development and tooling dependencies. Not installed in production.
 dev = [
-    "pre-commit>=4.2.0",
+    "pre-commit>=4.6.1",
     "ruff>=0.12.3",
     "interrogate>=1.7.0",
     "pyright>=1.1.391",
