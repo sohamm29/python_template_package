@@ -11,11 +11,5 @@ uv sync --all-extras --dev
 echo "==> Pre-commit hooks"
 uv run pre-commit run --all-files
 
-echo "==> Ruff lint"
-uv run ruff check .
-
-echo "==> Ruff format"
-uv run ruff format --check .
-
 echo "==> Pytest"
 uv run pytest
