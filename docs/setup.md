@@ -12,9 +12,7 @@ followed by the component or purpose. Use hyphens to separate words.
 
 Examples:
 
-- `glintt-next-template`
-- `glintt-billing-api`
-- `glintt-billing-etl`
+- `client-template-package'
 
 Avoid uppercase letters, spaces, and underscores so names stay consistent across
 Git hosts, Docker images, and shell paths.
